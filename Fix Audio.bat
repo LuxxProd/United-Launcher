@@ -1,0 +1,3 @@
+echo restarting audio...
+powershell -Command "Start-Process 'restart audio.bat' -Verb RunAs"
+pause
